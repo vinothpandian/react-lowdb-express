@@ -7,7 +7,7 @@ class Home extends Component {
             <div className="row justify-content-center align-items-center h-100">
                 <div className="col-auto text-center">
                     <h1 className="display-1">React</h1>
-                    <p className="lead">with Webpack, Bootstrap, LowDB and Express</p>
+                    <p className="lead">with Vite, Bootstrap, LowDB and Express</p>
                 </div>
             </div>
         );

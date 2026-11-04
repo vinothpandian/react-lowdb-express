@@ -1,3 +1,4 @@
+import $ from "jquery";
 import React, {Component} from 'react';
 import DictTable from "./DictTable";
 
@@ -47,12 +48,12 @@ class FeatureForm extends Component {
         return (
             <div>
                 <form>
-                    <div className="form-group">
+                    <div className="mb-3">
                         <label htmlFor="key">Key</label>
-                        <input type="text" className="form-control" id="key" aria-describedby="key" placeholder="Enter JSON Key" />
-                        <small id="key" className="form-text text-muted">Let's enter the Key Value pair in JSON file using LowDB.</small>
+                        <input type="text" className="form-control" id="key" aria-describedby="key-help" placeholder="Enter JSON Key" />
+                        <small id="key-help" className="form-text text-muted">Let's enter the Key Value pair in JSON file using LowDB.</small>
                     </div>
-                    <div className="form-group">
+                    <div className="mb-3">
                         <label htmlFor="value">Value</label>
                         <input type="text" className="form-control" id="value" placeholder="Enter Value of Key" />
                     </div>
